@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: cake;
+    src: url(./Cake.otf);
+    
+}
+
+@font-face {
+    font-family: lemon;
+    src: url(./Lemon.otf);
+}
+
+@font-face {
+    font-family: rami;
+    src: url(./Rami.ttf);
+}
+
+
+.header {
+    
+    height: 100vh;
+    background-image: url("./splashscreen.jpg");
+    background-size: cover;
+    background-position: top;
+    
+}
+.center {
+    position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    height: 90vh;
+    text-align: center;
+    position:relative;
+    z-index: 2;
+    flex-direction: column;
+    
+}
+
+
+.cgm{
+    font-family: lemon;
+    color: white;
+}
+.rlt{
+    font-family: rami;
+    font-size: 250%;
+    color: white;
+    padding-bottom: 35px;
+}
+.decouvrir{
+    font-family: rami;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px 50px;
+    cursor: pointer;
+}
+
+.navbar {
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h1{
+    color: white;
+    font-family: cake;
+    font-size: 70px;
+
+}
+
+.menu {
+    color: white;
+    font-family: lemon;
+
+}
+.menu ul{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    margin: 0 40px;
+}
+
+.menu ul li{
+    margin-left: 40px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.resa{
+    border-style: solid;
+    padding: 15px;
+    border-width: 1px;
+    color: rgb(196,153,139,255);
+}
+.center {
+
+   
+}
+
+.back{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 1, 63, 0.39);
+}
+
+.section {
+    height: 100vh;
+    background-color: rgb(8, 8, 17);
+}
+.header2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    background-color: #000000;
+    flex-direction: column;
+}
+.tradition{
+font-family: lemon;
+border-bottom: solid;
+padding-bottom: 20px;
+color: white;
+}
+.tables{
+    padding-top: 40px;
+    font-family: rami;
+    color: white;
+    font-size: 150%;
+}

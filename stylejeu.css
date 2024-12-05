@@ -1,0 +1,11 @@
+.bouton{
+    color: rgb(160, 12, 12);
+    cursor: pointer;
+}
+.restart{
+    color: rgb(53, 184, 53);
+    cursor: pointer;
+}
+h5{
+    color: red;
+}
